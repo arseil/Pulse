@@ -33,5 +33,17 @@
             color: #FF0000;
         }
     }
+    &__icon {
+        &_animated {
+            animation: heartbeat 1.7s ease infinite;
+            /* animation-name: heartbeat;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite; */
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
 
 }
